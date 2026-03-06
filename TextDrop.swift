@@ -367,6 +367,7 @@ struct TextDropContentView: View {
                 store.saveToFile()
                 editorFocused = true
             }
+            .keyboardShortcut(.return, modifiers: [.command])
             .buttonStyle(.glassProminent)
             .controlSize(.small)
             .disabled(!store.canSave)
@@ -375,6 +376,7 @@ struct TextDropContentView: View {
                 store.saveToFile()
                 editorFocused = true
             }
+            .keyboardShortcut(.return, modifiers: [.command])
             .buttonStyle(.borderedProminent)
             .controlSize(.small)
             .disabled(!store.canSave)
