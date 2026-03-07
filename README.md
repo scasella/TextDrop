@@ -4,6 +4,10 @@ TextDrop is a menu bar macOS app for one job: paste text into an editor, then cr
 
 ![TextDrop screenshot](screenshot.png)
 
+## Why I Built This
+
+ClipDrop showed me people want an even simpler paste-to-file flow. TextDrop strips it down further: paste text into a compact editor, hit Cmd+Return, save to Desktop, Downloads, or Documents. No file type picker, no complexity — just the fastest path from text in your head to a file on disk.
+
 ## Install
 
 ### Homebrew
